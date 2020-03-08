@@ -1,0 +1,2 @@
+<import src="./insurance.vue.wxml" />
+    <template is="0ab3c1a6" data="{{ ...$root['0'], $root }}"/>

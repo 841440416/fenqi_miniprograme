@@ -1,0 +1,2 @@
+<import src="./inquiry-add.vue.wxml" />
+    <template is="75e2b46f" data="{{ ...$root['0'], $root }}"/>

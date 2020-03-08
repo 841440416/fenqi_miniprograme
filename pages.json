@@ -1,0 +1,103 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, 
+		{
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, 
+		{
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "车险分期",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path": "pages/inquiry/inquiry",
+			"style": {
+				"navigationBarTitleText": "车辆管理"
+			}
+		},
+		{
+			"path": "pages/vehicle/vehicle",
+			"style": {
+				"navigationBarTitleText": "询价管理"
+			}
+		},
+		{
+			"path": "pages/insurance/insurance",
+			"style": {
+				"navigationBarTitleText": "保险分期管理"
+			}
+		},
+		{
+			"path": "pages/repayment/repayment",
+			"style": {
+				"navigationBarTitleText": "还款查询"
+			}
+		},
+		{
+			"path": "pages/inquiry-edit/inquiry-edit",
+			"style": {
+				"navigationBarTitleText": "车辆编辑"
+			}
+		},
+		{
+			"path": "pages/inquiry-add/inquiry-add",
+			"style": {
+				"navigationBarTitleText": "车辆增加"
+			}
+		}
+	],
+	"tabBar": {
+	    "color": "#7a7e83",
+	    "selectedColor": "#0faeff",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/home/home",
+	        "text": "首页",
+	        "iconPath": "static/images/home.png",
+	        "selectedIconPath": "static/images/homeHL.png"
+	    }, {
+	        "pagePath": "pages/user/user",
+	        "text": "我的",
+	        "iconPath": "static/images/user.png",
+	        "selectedIconPath": "static/images/userHL.png"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "车险分期",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+<import src="/components/m-input/m-input.vue.wxml" />
+<import src="/components/neil-modal/neil-modal.vue.wxml" />
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
+<import src="/components/uni-swipe-action/uni-swipe-action.vue.wxml" />
+<import src="/components/uni-load-more/uni-load-more.vue.wxml" />
+
+<template name="data-v-316da166-default-7dfca891-5"><view class="_view data-v-316da166 input-view"><view class="_view data-v-316da166 input-name"><view class="_view data-v-316da166">车牌</view><input type="text" placeholder="请输入用车牌号" class="_input data-v-316da166" /></view><view class="_view data-v-316da166 input-password"><view class="_view data-v-316da166">车架</view><input type="text" password placeholder="请输入车架号" class="_input data-v-316da166" /></view><view class="_view data-v-316da166 input-password"><view class="_view data-v-316da166">姓名</view><input type="text" password placeholder="请输入姓名" class="_input data-v-316da166" /></view></view></template>
+
+<template name="data-v-34d04e83-default-6ba05a72-2-+index"><view class="_view data-v-34d04e83 flex_row"><text class="_text data-v-34d04e83">车牌号</text><text class="_text data-v-34d04e83">沪A888888</text></view><view class="_view data-v-34d04e83 flex_row"><text class="_text data-v-34d04e83">车架号</text><text class="_text data-v-34d04e83">HK.32588</text></view><view class="_view data-v-34d04e83 flex_row"><text class="_text data-v-34d04e83">车主姓名</text><text class="_text data-v-34d04e83">张三</text></view></template>
+
+<template name="data-v-34d04e83-default-6ba05a72-4"><view class="_view data-v-34d04e83 input-view"><view class="_view data-v-34d04e83 input-name"><view class="_view data-v-34d04e83">车牌</view><input type="text" placeholder="请输入用车牌号" class="_input data-v-34d04e83" /></view><view class="_view data-v-34d04e83 input-password"><view class="_view data-v-34d04e83">车架</view><input type="text" password placeholder="请输入车架号" class="_input data-v-34d04e83" /></view><view class="_view data-v-34d04e83 input-password"><view class="_view data-v-34d04e83">姓名</view><input type="text" password placeholder="请输入姓名" class="_input data-v-34d04e83" /></view></view></template>
+
